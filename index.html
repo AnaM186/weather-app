@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>My weather application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Imperial+Script&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Ribeye&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            id="search-form-input"
+            placeholder="Enter a city.."
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="heading">Paris</h1>
+            <p class="description">
+              <span id="current-time-day"></span>, moderate rain
+              <br />
+              Humidity: <strong>87%</strong>, Wind:
+              <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div>
+            <h2>
+              <span class="sun-icon">☀️ </span
+              ><span id="current-temperature">14</span
+              ><span class="degrees-icon">°C</span>
+            </h2>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank" class="link-style">Ana Moskalenko</a> and
+          is <a href="#" target="_blank" class="link-style"> on GitHub</a> and
+          <a href="#" target="_blank" class="link-style">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

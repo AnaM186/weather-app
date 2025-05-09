@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto Slab", serif;
+  background: #eeeeef;
+}
+
+footer {
+  border-top: 1px solid #eeeeef;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+form {
+  margin: 15px 30px;
+  background: #e5e0f0;
+}
+input,
+textarea {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 75%;
+  padding: 18px 15px;
+  background: none;
+}
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.search-button {
+  padding: 18px 20px;
+  margin: 0 8px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 15%;
+  background: #885df1;
+}
+.box {
+  max-width: 650px;
+  padding: 30px;
+  background: #e5e0f0;
+  margin: 50px auto;
+  border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.heading {
+  font-size: 38px;
+  font-weight: 800;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.description strong {
+  color: #f65282;
+}
+.sun-icon {
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+  margin-right: 10px;
+}
+.degrees-icon {
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  top: -36px;
+}
+.link-style {
+  color: #885df1;
+}
